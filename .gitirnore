@@ -1,0 +1,9 @@
+# Python virtual environment files
+.venv/ __pycache__/ *.pyc
+# Scrapy temporary files and cache
+.scrapy/ *.log
+# Large files and directories removed from history The paths below are based on your previous errors
+Services/scraper/app/chrome-linux64/
+Services/scraper/*.zip
+
+

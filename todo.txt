@@ -1,0 +1,85 @@
+* Make paginated api https://uriyyo-fastapi-pagination.netlify.app/#quickstart  # done
+* Add proper documentation to Swagger
+* Remove obsolete docker compose file
+
+* Dont use pictures/screenshots of code, use codebrackets instead
+* Restructure your readme, there is going to be something of a hierarchy of things. 1. Setting up the project 2. Development Process 3. Deployment
+* Have a quickguide for deployment
+* Think about the keyword problem. We currently use a limited set of keywords, we want this to change, be flexible? What if we can use environment variables and dynamically set this up?
+* Wrap your API code into classes.
+
+
+Step 2
+* Search your project, are there any credentials in there? Remove those, and replace with environment variables.
+* Validate full deployment -> Can I run everything and that everything works? So scraping + Pipeline + API
+
+/ home / khaleel /.cache / pypoetry / virtualenvs / scraper - LSLe - B7z - py3
+.12 / bin / python
+
+(scraper-LSLe-B7z-py3.12) ~/Projects/Scrapy_Project/Scraper/Services/scraper/app
+poetry env info
+
+Virtualenv
+Python:         3.12.3
+Implementation: CPython
+Path:           /home/khaleel/.cache/pypoetry/virtualenvs/scraper-LSLe-B7z-py3.12
+Executable:     /home/khaleel/.cache/pypoetry/virtualenvs/scraper-LSLe-B7z-py3.12/bin/python
+Valid:          True
+
+Base
+Platform:   linux
+OS:         posix
+Python:     3.12.3
+Path:       /usr
+Executable: /usr/bin/python3.12
+
+(scraper-LSLe-B7z-py3.12) ~/Projects/Scrapy_Project/Scraper/Services/pipeline/app
+poetry env info
+
+Virtualenv
+Python:         3.12.3
+Implementation: CPython
+Path:           /home/khaleel/.cache/pypoetry/virtualenvs/scraper-LSLe-B7z-py3.12
+Executable:     /home/khaleel/.cache/pypoetry/virtualenvs/scraper-LSLe-B7z-py3.12/bin/python
+Valid:          True
+
+Base
+Platform:   linux
+OS:         posix
+Python:     3.12.3
+Path:       /usr
+Executable: /usr/bin/python3.12
+
+(scraper-LSLe-B7z-py3.12) ~/Projects/Scrapy_Project/Scraper/Services/migrator
+poetry env info
+
+Virtualenv
+Python:         3.12.3
+Implementation: CPython
+Path:           /home/khaleel/.cache/pypoetry/virtualenvs/scraper-LSLe-B7z-py3.12
+Executable:     /home/khaleel/.cache/pypoetry/virtualenvs/scraper-LSLe-B7z-py3.12/bin/python
+Valid:          True
+
+Base
+Platform:   linux
+OS:         posix
+Python:     3.12.3
+Path:       /usr
+Executable: /usr/bin/python3.12
+
+(scraper-LSLe-B7z-py3.12) ~/Projects/Scrapy_Project/Scraper/Services/API/app
+poetry env info
+
+Virtualenv
+Python:         3.12.3
+Implementation: CPython
+Path:           /home/khaleel/.cache/pypoetry/virtualenvs/scraper-LSLe-B7z-py3.12
+Executable:     /home/khaleel/.cache/pypoetry/virtualenvs/scraper-LSLe-B7z-py3.12/bin/python
+Valid:          True
+
+Base
+Platform:   linux
+OS:         posix
+Python:     3.12.3
+Path:       /usr
+Executable: /usr/bin/python3.12
